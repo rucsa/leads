@@ -9,7 +9,7 @@ echo '<link rel="stylesheet" type="text/css" href="style.css">';
 <body>
 
 <?php 
-//include('./includes/read_data.php'); 
+
  /*
 $generator = read_data();
 foreach ($generator as $value) {
@@ -18,7 +18,7 @@ foreach ($generator as $value) {
 $generator->rewind();
 */
 include('./includes/db_connnection.php');
-include('read_data.php');
+include('./includes/read_data.php'); 
 
 $conn = OpenCon();
 if ($result = $conn -> query('SELECT * FROM leads_table;')) {
