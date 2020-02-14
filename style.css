@@ -1,0 +1,51 @@
+body {
+    background-color: silver;
+    margin: 0;
+    font-size: 18px;
+}
+h1, h2, h3, h4 {
+    margin:0;
+    padding: 0.4em 0;
+}
+
+.info-bar {
+    width: 100%;
+    height: 2em;
+    font-size: 1em;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 0.6em;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.email-container {
+    background-color: gainsboro;
+    padding-left: 20px;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.email-info, .emails, .all-issues{
+    font-size: 1em;
+    padding: .4em;
+}
+
+.email-info, .emails{
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.all-issues {
+    border: 1px solid black;
+}
+
+.missing-data {
+    color: firebrick;
+} 
+
+.no-issues {
+    color: green;
+    font-weight: 800;
+}
+
