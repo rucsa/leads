@@ -1,2 +1,6 @@
 pass.txt
+<<<<<<< HEAD
 node_modules/*
+=======
+./node_modules
+>>>>>>> fd767c862bb15883e4d4b01345a2add47a7da6b0
